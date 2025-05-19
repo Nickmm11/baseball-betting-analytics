@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Nickmm11/baseball-betting-analytics#readme",
   "description": "",
   "dependencies": {
+    "all": "^0.0.0",
     "axios": "^1.9.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
