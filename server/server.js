@@ -15,8 +15,6 @@ app.use(express.json());
 // Routes
 app.use('/api/games', require('./routes/games'));
 app.use('/api/players', require('./routes/players'));
-app.use('/api/teams', require('./routes/teams'));
-app.use('/api/odds', require('./routes/odds'));
 app.use('/api/predictions', require('./routes/predictions'));
 
 // Schedule odds updates
