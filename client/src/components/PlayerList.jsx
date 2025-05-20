@@ -118,11 +118,11 @@ const PlayerList = () => {
                                 {teamPlayers.map(player => (
                                     <Link
                                     key = {player.id}
-                                    to = {`/players/${player.id}`}
+                                    to = {`/player/${player.id}`}
                                     className = 'player-card bg-white p-4 rounded-lg shadow hover:shadow-md transition'>
                                         <div className = 'flex justify-between items-start'>
                                             <div>
-                                                <h3 className = 'text-lg font-medium'>{players.name}</h3>
+                                                <h3 className = 'text-lg font-medium'>{player.name}</h3>
                                                 <p className = 'text-gray-600'>{player.position}</p>
                                             </div>
                                             <div className = 'text-sm text-gray-500'>

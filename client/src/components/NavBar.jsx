@@ -14,9 +14,9 @@ const NavBar = () => {
             <div className = 'container mx-auto flex justify-between items-center'>
                 <Link to = '/' className = 'text-xl font-bold'>Baseball Betting Analytics</Link>
 
-                <div className = 'flex space x-4'>
-                    <Link to = '/games' className = {`px-3 py-2 rounded hover:bg-blue-700 ${isActive('/games')}`}></Link>
-                    <Link to = '/players' className = {`px-3 py-2 rounded hover:bg-blue-700 ${isActive('/players')}`}></Link>
+                <div className = 'flex space-x-4'>
+                    <Link to = '/games' className = {`px-3 py-2 rounded hover:bg-blue-700 ${isActive('/games')}`}>Games</Link>
+                    <Link to = '/players' className = {`px-3 py-2 rounded hover:bg-blue-700 ${isActive('/players')}`}>Players</Link>
                 </div>
             </div>
         </nav>

@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import GameDashboard from './components/GameDashboard';
+import GamesDashboard from './components/GamesDashboard';
 import GameAnalysis from './components/GameAnalysis';
 import PlayerPropAnalyzer from './components/PlayerPropAnalyzer';
-import PlayersList from './components/PlayersList';
+import PlayerList from './components/PlayerList';
 import HomePage from './components/HomePage';
 import './App.css';
 
@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/games" element={<GamesDashboard />} />
             <Route path="/game/:gameId" element={<GameAnalysis />} />
-            <Route path="/players" element={<PlayersList />} />
+            <Route path="/players" element={<PlayerList />} />
             <Route path="/player/:playerId" element={<PlayerPropAnalyzer />} />
           </Routes>
         </div>

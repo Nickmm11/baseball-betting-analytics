@@ -9,7 +9,7 @@ const HomePage = () => {
                 <p className = 'text-xl text-gray-700 mb-6'>
                     Make smarter data driven insights on player performance, team matchups, and betting lines
                 </p>
-                <div className = 'flex-space-x-4'>
+                <div className = 'flex space-x-4'>
                     <Link to = '/games' className = 'px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition'>View Today's Games</Link>
                     <Link to = '/players' className = 'px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition'>Browse Players</Link>
                 </div>

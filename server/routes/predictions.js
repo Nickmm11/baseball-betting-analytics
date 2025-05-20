@@ -4,6 +4,7 @@ const { Game, Team, Prediction, PlayerGameStat } = require('../models');
 const { Op, fn, col } = require('sequelize');
 const { spawn } = require('child_process');
 const path = require('path');
+const { Game, Team, Prediction, PlayerGameStat, Player } = require('../models');
 
 // Get predictions for all upcoming games
 router.get('/upcoming', async (req, res) => {
