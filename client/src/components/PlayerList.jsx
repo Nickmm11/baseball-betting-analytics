@@ -139,3 +139,5 @@ const PlayerList = () => {
         </div>
     );
 };
+
+export default PlayerList;
