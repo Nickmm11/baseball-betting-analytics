@@ -12,7 +12,8 @@
     "seed": "node server/scripts/seed.js",
     "install-all": "npm install && cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "setup": "node server/scripts/setup.js"
   },
   "repository": {
     "type": "git",
